@@ -1,0 +1,28 @@
+{
+  "name": "js_youtube",
+  "version": "1.0.0",
+  "description": "make youtube clone web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/younu-Yun/Js_youtubeClone.git"
+  },
+  "author": "younu_Yun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/younu-Yun/Js_youtubeClone/issues"
+  },
+  "homepage": "https://github.com/younu-Yun/Js_youtubeClone#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4",
+    "nodemon": "^2.0.22"
+  }
+}
