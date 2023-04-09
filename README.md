@@ -7,12 +7,19 @@
 /search → search
 
 /_ user Router _/
-/users/edit → edit user
-/users/remove → remove user
+/users/:id → see user
+/users/logout → logout
+
+//\*로그인을 해야만 접근가능
+
+/users/edit → edit my profile
+/users/remove → remove my profile
 
 /_ videos Router _/
-/videos/videos/watch → watch video
-/videos/edit → edit video
-/videos/remove → remove video
+/videos/:id → see video
+/videos/:id/edit → edit video
+/videos/:id/remove → remove video
+/videos/upload → upload video
+
 /videos/comment → comment on a video
 /videos/comment/delete → delete comment on a video
