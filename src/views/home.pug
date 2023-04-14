@@ -1,0 +1,9 @@
+extends base.pug
+include mixins/video
+
+block content 
+  h2 ✨ Welcome here you will see the trending videos
+  each list in videos
+    +video(list) 
+  else 
+    strong Sorry nothing found
